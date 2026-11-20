@@ -1,0 +1,31 @@
+{
+  "name": "1ai-discord-bot",
+  "version": "1.0.0",
+  "description": "Free & Open-Source AI Discord Bot — Auto-Support (FAQ), Channel Summaries (/summarize), and AI Anti-Scam Shield. Supports Gemini, Groq, and local Ollama.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "test": "node --test test/smoke.test.js test/regressions.test.js"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "discordjs",
+    "ai",
+    "gemini",
+    "groq",
+    "ollama",
+    "anti-scam",
+    "open-source"
+  ],
+  "author": "bigbotdp",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.19.0",
+    "dotenv": "^16.4.5"
+  }
+}
